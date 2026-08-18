@@ -1,0 +1,1656 @@
+{
+  "program": {
+    "name": "Saison trail sept. → nov. 2026 (+ jalons 2027)",
+    "description": "4 courses confirmées : Serre Che Trail 26km/1850D+ (13/09), Roc d'Azur Roc Trail 25K 24.8km/780D+ (11/10), LUT by Night 20K (07/11), TDSL Ours 30K Levens (29/11). Semaine type : 3 jours de repos fixes (lundi, mercredi, samedi). Mardi : Séance A puis course facile, en deux séances distinctes cochables séparément. Jeudi : Séance B puis côtes, idem. Vendredi : Séance A puis escalade, idem. Sortie longue le dimanche. Programme détaillé jusqu'au TDSL uniquement. Au-delà : Prom'Classic 10K Nice (10/01/27) et Trail des Calanques Sugiton 36K (~31/01/27, date TBC) posés comme jalons de calendrier, sans séances dédiées pour l'instant. Entraînement à Paris, D+ simulé en parc. Renfo excentrique/équilibre/gainage suite à blessure au genou suivie en kiné : la douleur reste la limite absolue, pas le planning.",
+    "startDate": "2026-08-17",
+    "endDate": "2026-11-29"
+  },
+  "exercises": [
+    {
+      "id": "ex-excentrique",
+      "name": "Squats excentriques (descente lente)",
+      "illustration": "excentrique"
+    },
+    {
+      "id": "ex-fentes",
+      "name": "Fentes avant contrôlées (descente lente)",
+      "illustration": "fentes"
+    },
+    {
+      "id": "ex-equilibre",
+      "name": "Équilibre unipodal",
+      "illustration": "equilibre"
+    },
+    {
+      "id": "ex-deadbug",
+      "name": "Dead bug (activation abdo profond)",
+      "illustration": "placeholder"
+    },
+    {
+      "id": "ex-planche",
+      "name": "Gainage planche (engagement actif du ventre)",
+      "illustration": "planche"
+    },
+    {
+      "id": "ex-mollets",
+      "name": "Mollets unilatéraux (descente lente)",
+      "illustration": "mollets"
+    },
+    {
+      "id": "ex-bulgares",
+      "name": "Squats bulgares",
+      "illustration": "bulgares"
+    },
+    {
+      "id": "ex-cheville",
+      "name": "Équilibre sur coussin/surface instable",
+      "illustration": "cheville"
+    },
+    {
+      "id": "ex-birddog",
+      "name": "Bird dog (stabilité + activation abdo)",
+      "illustration": "placeholder"
+    },
+    {
+      "id": "ex-gainage_lateral",
+      "name": "Gainage latéral (engagement actif du ventre)",
+      "illustration": "gainage_lateral"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "session-rest",
+      "name": "Repos complet",
+      "category": "Repos",
+      "description": "3 jours de repos fixes chaque semaine : lundi, mercredi, samedi"
+    },
+    {
+      "id": "session-climb",
+      "name": "Escalade",
+      "category": "Escalade",
+      "description": "Plaisir + haut du corps"
+    },
+    {
+      "id": "session-climb-light",
+      "name": "Escalade légère",
+      "category": "Escalade",
+      "description": "Cool, pas de push, semaine chargée ou proche course"
+    },
+    {
+      "id": "session-a",
+      "name": "Séance A",
+      "category": "Renforcement",
+      "description": "Excentrique genou + activation abdo",
+      "items": [
+        {
+          "exerciseId": "ex-excentrique",
+          "label": "3x8 / jambe",
+          "sets": 3,
+          "reps": 8,
+          "duration": null,
+          "side": "each"
+        },
+        {
+          "exerciseId": "ex-fentes",
+          "label": "3x10 / jambe",
+          "sets": 3,
+          "reps": 10,
+          "duration": null,
+          "side": "each"
+        },
+        {
+          "exerciseId": "ex-equilibre",
+          "label": "3x30-45s / jambe",
+          "sets": 3,
+          "reps": null,
+          "duration": "30-45s",
+          "side": "each"
+        },
+        {
+          "exerciseId": "ex-deadbug",
+          "label": "3x10 / côté",
+          "sets": 3,
+          "reps": 10,
+          "duration": null,
+          "side": "each"
+        },
+        {
+          "exerciseId": "ex-planche",
+          "label": "3x30-45s",
+          "sets": 3,
+          "reps": null,
+          "duration": "30-45s",
+          "side": null
+        }
+      ]
+    },
+    {
+      "id": "session-b",
+      "name": "Séance B",
+      "category": "Renforcement",
+      "description": "Équilibre + activation abdo",
+      "items": [
+        {
+          "exerciseId": "ex-mollets",
+          "label": "3x15 / jambe",
+          "sets": 3,
+          "reps": 15,
+          "duration": null,
+          "side": "each"
+        },
+        {
+          "exerciseId": "ex-bulgares",
+          "label": "3x10 / jambe",
+          "sets": 3,
+          "reps": 10,
+          "duration": null,
+          "side": "each"
+        },
+        {
+          "exerciseId": "ex-cheville",
+          "label": "3x30-45s / jambe",
+          "reps": null,
+          "duration": "30-45s",
+          "side": "each"
+        },
+        {
+          "exerciseId": "ex-birddog",
+          "label": "3x10 / côté",
+          "sets": 3,
+          "reps": 10,
+          "duration": null,
+          "side": "each"
+        },
+        {
+          "exerciseId": "ex-gainage_lateral",
+          "label": "3x30s / côté",
+          "sets": 3,
+          "reps": null,
+          "duration": "30s",
+          "side": "each"
+        }
+      ]
+    },
+    {
+      "id": "session-run-1",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "30 min, plat, EF : aucune pression",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-2",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "25-30 min avec 2-3 petites côtes, D+ ~80 m",
+      "pace": "5'30-5'50/km"
+    },
+    {
+      "id": "session-run-3",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "50 min, D+ ~150 m, allure EF ou plus lent",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-4",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "35-40 min, plat, EF",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-5",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "35 min avec côtes, D+ ~100 m",
+      "pace": "5'30-5'50/km"
+    },
+    {
+      "id": "session-run-6",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "1h10, D+ ~300 m, EF",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-7",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "40 min EF + 2x5 min à allure soutenue en fin de séance",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-8",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "45 min avec côtes, D+ ~200 m",
+      "pace": "5'30-5'50/km"
+    },
+    {
+      "id": "session-run-9",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "1h45, D+ ~550 m : insiste sur la marche active en montée raide",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-10",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "40 min, EF, vallonné si possible",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-11",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "45 min avec côtes, D+ ~250 m",
+      "pace": "5'30-5'50/km"
+    },
+    {
+      "id": "session-run-12",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "2h15, D+ ~900 m : dernière grosse sortie avant Serre Che, marche/course alternée",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-13",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "25 min, EF, décontracté",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-14",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "20 min EF avec 3-4 accélérations courtes",
+      "pace": "5'30-5'50/km"
+    },
+    {
+      "id": "session-run-15",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "REPOS avant course : la course est dimanche à 08h00, terrain haute montagne (2717 m au point culminant)",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-16",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "25-30 min, plat, aucune pression",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-17",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "20-25 min avec 1-2 petites côtes, D+ léger",
+      "pace": "5'30-5'50/km"
+    },
+    {
+      "id": "session-run-18",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "45-50 min, plat, très facile",
+      "pace": "6'30-7'00/km"
+    },
+    {
+      "id": "session-run-19",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "30 min, plat, EF + une côte, D+ ~100 m",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-20",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "35 min avec côtes, D+ ~120 m",
+      "pace": "5'20-5'40/km"
+    },
+    {
+      "id": "session-run-21",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "1h, D+ ~250 m, EF",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-22",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "35 min, plat, EF",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-23",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "40 min avec côtes, D+ ~150 m",
+      "pace": "5'20-5'40/km"
+    },
+    {
+      "id": "session-run-24",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "1h30, D+ ~400 m",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-25",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "30 min, EF, décontracté",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-26",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "25 min EF avec quelques accélérations",
+      "pace": "5'20-5'40/km"
+    },
+    {
+      "id": "session-run-27",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "REPOS avant course : la course est dimanche à 08h00, Roquebrune-sur-Argens",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-28",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "25 min, plat, aucune pression",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-29",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "20 min avec 1 petite côte",
+      "pace": "5'20-5'40/km"
+    },
+    {
+      "id": "session-run-30",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "50 min, plat, très facile",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-31",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "35 min, EF + côtes, D+ ~120 m",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-32",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "35 min avec côtes, D+ ~150 m",
+      "pace": "5'20-5'40/km"
+    },
+    {
+      "id": "session-run-33",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "1h15, D+ ~300 m",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-34",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "35 min, EF",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-35",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "40 min avec côtes, D+ ~200 m",
+      "pace": "5'20-5'40/km"
+    },
+    {
+      "id": "session-run-36",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "1h30, D+ ~350 m : dernière sortie avant Lyon",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-37",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "25 min, EF, décontracté",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-38",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "20 min EF avec 3-4 accélérations courtes",
+      "pace": "5'20-5'40/km"
+    },
+    {
+      "id": "session-run-39",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "REPOS : course en soirée samedi (LUT by Night)",
+      "pace": "6'10-6'50/km"
+    },
+    {
+      "id": "session-run-40",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "30 min, plat, EF : récup post-Lyon",
+      "pace": "6'00-6'40/km"
+    },
+    {
+      "id": "session-run-41",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "30 min avec 1 petite côte",
+      "pace": "5'10-5'30/km"
+    },
+    {
+      "id": "session-run-42",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "1h30, D+ ~400 m, EF : teste les jambes après Lyon",
+      "pace": "6'00-6'40/km"
+    },
+    {
+      "id": "session-run-43",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "30 min, EF",
+      "pace": "6'00-6'40/km"
+    },
+    {
+      "id": "session-run-44",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "25 min avec une courte côte, D+ ~150 m",
+      "pace": "5'10-5'30/km"
+    },
+    {
+      "id": "session-run-45",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "1h, D+ ~250 m : on entame l'affûtage vers Levens",
+      "pace": "6'00-6'40/km"
+    },
+    {
+      "id": "session-run-46",
+      "name": "Course facile",
+      "category": "Course",
+      "notes": "20 min, EF, très décontracté",
+      "pace": "6'00-6'40/km"
+    },
+    {
+      "id": "session-run-47",
+      "name": "Course + côtes",
+      "category": "Course",
+      "notes": "20 min EF avec 2-3 accélérations courtes",
+      "pace": "5'10-5'30/km"
+    },
+    {
+      "id": "session-run-48",
+      "name": "Sortie longue",
+      "category": "Course",
+      "notes": "REPOS complet : la course est dimanche à 09h00, Levens",
+      "pace": "6'00-6'40/km"
+    },
+    {
+      "id": "session-race-serreche",
+      "name": "Serre Che Trail — Petit Tour des Cerces",
+      "category": "Course",
+      "distance": 26,
+      "elevation": 1850,
+      "startTime": "08:00",
+      "notes": "1ère course de la reprise, terrain de haute montagne (point culminant 2717 m). Profil très raide (71 m D+/km) pour seulement 4,5 semaines de préparation : mode prudence assumé, marche sans complexe dans les montées, priorité absolue à l'écoute du genou. Ce n'est pas une course de temps."
+    },
+    {
+      "id": "session-race-rocazur",
+      "name": "Roc d'Azur — Roc Trail 25K",
+      "category": "Course",
+      "distance": 24.8,
+      "elevation": 780,
+      "startTime": "08:00",
+      "notes": "Roquebrune-sur-Argens (Var), massif des Maures. Profil plus modéré que Serre Che (31 m D+/km), bon test de progression après la première course."
+    },
+    {
+      "id": "session-race-lut",
+      "name": "LUT by Night — 20K",
+      "category": "Course",
+      "distance": 19.6,
+      "elevation": 584,
+      "startTime": "18:30",
+      "notes": "Tune-up nocturne à Lyon (D+ officiel 2026 pas encore publié par l'organisateur, valeurs 2025 utilisées, heure de départ estimée). Effort contrôlé, pas une course à fond : teste la gestion de nuit à la frontale avant Levens 3 semaines plus tard."
+    },
+    {
+      "id": "session-race-tdsl",
+      "name": "TDSL — L'Ours (Levens)",
+      "category": "Course",
+      "distance": 30,
+      "elevation": 1800,
+      "startTime": "09:00",
+      "notes": "Objectif principal de l'automne. Col de Fuont Blanca, mont Férion, Col du Dragon. Terrain montagne exigeant mais déjà éprouvé (comparable à ton 34km/1895D+ d'avril) : pars prudente, gère l'effort sur la durée, savoure."
+    },
+    {
+      "id": "session-race-calanques",
+      "name": "Trail des Calanques — Sugiton 36K",
+      "category": "Course",
+      "distance": 36,
+      "elevation": 2100,
+      "startTime": "?",
+      "notes": "Objectif envisagé pour début 2027, date exacte pas encore publiée par l'organisateur (~fin janvier 2027, à confirmer sur traildescalanques.fr). Pas de plan d'entraînement dédié pour l'instant."
+    },
+    {
+      "id": "session-race-promclassic",
+      "name": "Prom'Classic — 10K",
+      "category": "Course",
+      "distance": 10,
+      "elevation": 10,
+      "startTime": "09:00",
+      "notes": "Nice, aller-retour sur la Promenade des Anglais, parcours plat et rapide. Pas de préparation spécifique pour l'instant, juste un jalon posé au calendrier."
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-08-17",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-08-18",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-08-18",
+      "sessionId": "session-run-4"
+    },
+    {
+      "date": "2026-08-19",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-08-20",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-08-20",
+      "sessionId": "session-run-5"
+    },
+    {
+      "date": "2026-08-21",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-08-21",
+      "sessionId": "session-climb"
+    },
+    {
+      "date": "2026-08-22",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-08-23",
+      "sessionId": "session-run-6"
+    },
+    {
+      "date": "2026-08-24",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-08-25",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-08-25",
+      "sessionId": "session-run-7"
+    },
+    {
+      "date": "2026-08-26",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-08-27",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-08-27",
+      "sessionId": "session-run-8"
+    },
+    {
+      "date": "2026-08-28",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-08-28",
+      "sessionId": "session-climb"
+    },
+    {
+      "date": "2026-08-29",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-08-30",
+      "sessionId": "session-run-9"
+    },
+    {
+      "date": "2026-08-31",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-01",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-09-01",
+      "sessionId": "session-run-10"
+    },
+    {
+      "date": "2026-09-02",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-03",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-09-03",
+      "sessionId": "session-run-11"
+    },
+    {
+      "date": "2026-09-04",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-09-04",
+      "sessionId": "session-climb"
+    },
+    {
+      "date": "2026-09-05",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-06",
+      "sessionId": "session-run-12"
+    },
+    {
+      "date": "2026-09-07",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-08",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-09-08",
+      "sessionId": "session-run-13"
+    },
+    {
+      "date": "2026-09-09",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-10",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-09-10",
+      "sessionId": "session-run-14"
+    },
+    {
+      "date": "2026-09-11",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-09-11",
+      "sessionId": "session-climb-light"
+    },
+    {
+      "date": "2026-09-12",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-13",
+      "sessionId": "session-race-serreche"
+    },
+    {
+      "date": "2026-09-14",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-15",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-09-15",
+      "sessionId": "session-run-16"
+    },
+    {
+      "date": "2026-09-16",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-17",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-09-17",
+      "sessionId": "session-run-17"
+    },
+    {
+      "date": "2026-09-18",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-09-18",
+      "sessionId": "session-climb-light"
+    },
+    {
+      "date": "2026-09-19",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-20",
+      "sessionId": "session-run-18"
+    },
+    {
+      "date": "2026-09-21",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-22",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-09-22",
+      "sessionId": "session-run-19"
+    },
+    {
+      "date": "2026-09-23",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-24",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-09-24",
+      "sessionId": "session-run-20"
+    },
+    {
+      "date": "2026-09-25",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-09-25",
+      "sessionId": "session-climb"
+    },
+    {
+      "date": "2026-09-26",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-27",
+      "sessionId": "session-run-21"
+    },
+    {
+      "date": "2026-09-28",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-09-29",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-09-29",
+      "sessionId": "session-run-22"
+    },
+    {
+      "date": "2026-09-30",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-01",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-10-01",
+      "sessionId": "session-run-23"
+    },
+    {
+      "date": "2026-10-02",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-10-02",
+      "sessionId": "session-climb"
+    },
+    {
+      "date": "2026-10-03",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-04",
+      "sessionId": "session-run-24"
+    },
+    {
+      "date": "2026-10-05",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-06",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-10-06",
+      "sessionId": "session-run-25"
+    },
+    {
+      "date": "2026-10-07",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-08",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-10-08",
+      "sessionId": "session-run-26"
+    },
+    {
+      "date": "2026-10-09",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-10-09",
+      "sessionId": "session-climb-light"
+    },
+    {
+      "date": "2026-10-10",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-11",
+      "sessionId": "session-race-rocazur"
+    },
+    {
+      "date": "2026-10-12",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-13",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-10-13",
+      "sessionId": "session-run-28"
+    },
+    {
+      "date": "2026-10-14",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-15",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-10-15",
+      "sessionId": "session-run-29"
+    },
+    {
+      "date": "2026-10-16",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-10-16",
+      "sessionId": "session-climb-light"
+    },
+    {
+      "date": "2026-10-17",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-18",
+      "sessionId": "session-run-30"
+    },
+    {
+      "date": "2026-10-19",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-20",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-10-20",
+      "sessionId": "session-run-31"
+    },
+    {
+      "date": "2026-10-21",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-22",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-10-22",
+      "sessionId": "session-run-32"
+    },
+    {
+      "date": "2026-10-23",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-10-23",
+      "sessionId": "session-climb"
+    },
+    {
+      "date": "2026-10-24",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-25",
+      "sessionId": "session-run-33"
+    },
+    {
+      "date": "2026-10-26",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-27",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-10-27",
+      "sessionId": "session-run-34"
+    },
+    {
+      "date": "2026-10-28",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-10-29",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-10-29",
+      "sessionId": "session-run-35"
+    },
+    {
+      "date": "2026-10-30",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-10-30",
+      "sessionId": "session-climb"
+    },
+    {
+      "date": "2026-10-31",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-01",
+      "sessionId": "session-run-36"
+    },
+    {
+      "date": "2026-11-02",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-03",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-11-03",
+      "sessionId": "session-run-37"
+    },
+    {
+      "date": "2026-11-04",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-05",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-11-05",
+      "sessionId": "session-run-38"
+    },
+    {
+      "date": "2026-11-06",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-11-06",
+      "sessionId": "session-climb-light"
+    },
+    {
+      "date": "2026-11-07",
+      "sessionId": "session-race-lut"
+    },
+    {
+      "date": "2026-11-08",
+      "sessionId": "session-run-42"
+    },
+    {
+      "date": "2026-11-09",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-10",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-11-10",
+      "sessionId": "session-run-40"
+    },
+    {
+      "date": "2026-11-11",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-12",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-11-12",
+      "sessionId": "session-run-41"
+    },
+    {
+      "date": "2026-11-13",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-11-13",
+      "sessionId": "session-climb"
+    },
+    {
+      "date": "2026-11-14",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-15",
+      "sessionId": "session-run-42"
+    },
+    {
+      "date": "2026-11-16",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-17",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-11-17",
+      "sessionId": "session-run-43"
+    },
+    {
+      "date": "2026-11-18",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-19",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-11-19",
+      "sessionId": "session-run-44"
+    },
+    {
+      "date": "2026-11-20",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-11-20",
+      "sessionId": "session-climb"
+    },
+    {
+      "date": "2026-11-21",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-22",
+      "sessionId": "session-run-45"
+    },
+    {
+      "date": "2026-11-23",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-24",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-11-24",
+      "sessionId": "session-run-46"
+    },
+    {
+      "date": "2026-11-25",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-26",
+      "sessionId": "session-b"
+    },
+    {
+      "date": "2026-11-26",
+      "sessionId": "session-run-47"
+    },
+    {
+      "date": "2026-11-27",
+      "sessionId": "session-a"
+    },
+    {
+      "date": "2026-11-27",
+      "sessionId": "session-climb-light"
+    },
+    {
+      "date": "2026-11-28",
+      "sessionId": "session-rest"
+    },
+    {
+      "date": "2026-11-29",
+      "sessionId": "session-race-tdsl"
+    },
+    {
+      "date": "2027-01-10",
+      "sessionId": "session-race-promclassic"
+    },
+    {
+      "date": "2027-01-31",
+      "sessionId": "session-race-calanques"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "recipe-1",
+      "name": "Overnight oats",
+      "category": "Petit-déjeuner",
+      "ingredients": [
+        "Flocons d'avoine",
+        "Lait ou yaourt",
+        "Fruit frais",
+        "Graines de chia"
+      ],
+      "instructions": "Prépare la veille dans un pot, mélange et laisse au frigo : prêt au réveil.",
+      "prepTime": "3 min (+ nuit)"
+    },
+    {
+      "id": "recipe-2",
+      "name": "Bowl skyr & fruits",
+      "category": "Petit-déjeuner",
+      "ingredients": [
+        "Skyr ou fromage blanc",
+        "Fruits frais",
+        "Amandes",
+        "Filet de miel"
+      ],
+      "instructions": "Mélange tout dans un bol.",
+      "prepTime": "2 min"
+    },
+    {
+      "id": "recipe-3",
+      "name": "Tartine complète",
+      "category": "Petit-déjeuner",
+      "ingredients": [
+        "Pain complet",
+        "Fromage ou houmous",
+        "Fruit"
+      ],
+      "instructions": "Tartine et c'est prêt.",
+      "prepTime": "2 min"
+    },
+    {
+      "id": "recipe-4",
+      "name": "Pudding de chia",
+      "category": "Petit-déjeuner",
+      "ingredients": [
+        "Graines de chia",
+        "Lait ou boisson végétale",
+        "Fruits rouges",
+        "Miel"
+      ],
+      "instructions": "Mélange les graines de chia et le lait la veille, laisse gonfler au frigo, ajoute les fruits le matin.",
+      "prepTime": "3 min (+ nuit)"
+    },
+    {
+      "id": "recipe-5",
+      "name": "Toast avocat-œuf",
+      "category": "Petit-déjeuner",
+      "ingredients": [
+        "Pain complet",
+        "Avocat",
+        "Œuf dur ou mollet",
+        "Citron, sel, poivre"
+      ],
+      "instructions": "Écrase l'avocat sur le pain, ajoute l'œuf coupé en tranches, assaisonne.",
+      "prepTime": "5 min"
+    },
+    {
+      "id": "recipe-6",
+      "name": "Bowl riz, thon & crudités",
+      "category": "Repas midi",
+      "ingredients": [
+        "Riz précuit (sachet)",
+        "Thon ou pois chiches",
+        "Carotte râpée, concombre, tomate",
+        "Avocat",
+        "Huile d'olive, citron"
+      ],
+      "instructions": "Réchauffe le riz 2 min, ajoute le reste cru : assaisonne.",
+      "prepTime": "5 min"
+    },
+    {
+      "id": "recipe-7",
+      "name": "Wrap houmous & tofu",
+      "category": "Repas midi",
+      "ingredients": [
+        "Tortilla complète",
+        "Houmous",
+        "Tofu fumé ou poulet froid",
+        "Crudités variées"
+      ],
+      "instructions": "Tartine, garnis, roule.",
+      "prepTime": "4 min"
+    },
+    {
+      "id": "recipe-8",
+      "name": "Salade lentilles & feta",
+      "category": "Repas midi",
+      "ingredients": [
+        "Lentilles en boîte",
+        "Feta ou œufs durs",
+        "Tomates, poivrons crus, avocat",
+        "Graines de courge"
+      ],
+      "instructions": "Rince les lentilles, mélange tout.",
+      "prepTime": "5 min"
+    },
+    {
+      "id": "recipe-9",
+      "name": "Bowl quinoa, pois chiches & crudités",
+      "category": "Repas midi",
+      "ingredients": [
+        "Quinoa précuit",
+        "Pois chiches en boîte",
+        "Concombre, tomates, chou rouge",
+        "Feta ou tofu",
+        "Tahini, citron"
+      ],
+      "instructions": "Assemble tous les ingrédients, arrose de tahini-citron.",
+      "prepTime": "5 min"
+    },
+    {
+      "id": "recipe-10",
+      "name": "Salade de pâtes froides",
+      "category": "Repas midi",
+      "ingredients": [
+        "Pâtes complètes (cuites à l'avance)",
+        "Thon ou mozzarella",
+        "Tomates cerises, olives, concombre",
+        "Huile d'olive, basilic"
+      ],
+      "instructions": "Mélange les pâtes froides avec le reste, assaisonne.",
+      "prepTime": "5 min (pâtes précuites)"
+    },
+    {
+      "id": "recipe-11",
+      "name": "Pain, miel & banane",
+      "category": "Avant course ou séance intense",
+      "ingredients": [
+        "Pain blanc ou complet léger",
+        "Miel",
+        "Banane bien mûre"
+      ],
+      "instructions": "Tartine généreusement, mange 30-60 min avant le départ.",
+      "prepTime": "2 min"
+    },
+    {
+      "id": "recipe-12",
+      "name": "Riz au sirop d'érable",
+      "category": "Avant course ou séance intense",
+      "ingredients": [
+        "Riz blanc précuit",
+        "Sirop d'érable ou miel",
+        "Pincée de sel"
+      ],
+      "instructions": "Réchauffe le riz, ajoute le sirop et le sel : glucides digestes, peu de fibres.",
+      "prepTime": "3 min"
+    },
+    {
+      "id": "recipe-13",
+      "name": "Compote & barre de céréales",
+      "category": "Avant course ou séance intense",
+      "ingredients": [
+        "Compote sans sucres ajoutés",
+        "Barre de céréales simple"
+      ],
+      "instructions": "Rien à préparer, facile à digérer avant l'effort.",
+      "prepTime": "0 min"
+    },
+    {
+      "id": "recipe-14",
+      "name": "Dattes & thé sucré",
+      "category": "Avant course ou séance intense",
+      "ingredients": [
+        "Dattes Medjool",
+        "Thé ou café léger sucré"
+      ],
+      "instructions": "3-4 dattes bien mûres, sucre rapide sans fibres excessives.",
+      "prepTime": "1 min"
+    },
+    {
+      "id": "recipe-15",
+      "name": "Smoothie récup",
+      "category": "Après sortie longue",
+      "ingredients": [
+        "Banane",
+        "Yaourt grec ou skyr",
+        "Fruits rouges",
+        "Flocons d'avoine"
+      ],
+      "instructions": "Mixe tout : à boire dans l'heure suivant la sortie.",
+      "prepTime": "3 min"
+    },
+    {
+      "id": "recipe-16",
+      "name": "Bowl riz, œuf & légumes crus",
+      "category": "Après sortie longue",
+      "ingredients": [
+        "Riz précuit",
+        "Œufs durs",
+        "Avocat",
+        "Légumes crus",
+        "Sauce soja"
+      ],
+      "instructions": "Assemble et assaisonne.",
+      "prepTime": "5 min"
+    },
+    {
+      "id": "recipe-17",
+      "name": "Yaourt grec express",
+      "category": "Après sortie longue",
+      "ingredients": [
+        "Yaourt grec",
+        "Granola",
+        "Fruits frais",
+        "Miel"
+      ],
+      "instructions": "Récup rapide en attendant le vrai repas.",
+      "prepTime": "2 min"
+    },
+    {
+      "id": "recipe-18",
+      "name": "Milkshake protéiné maison",
+      "category": "Après sortie longue",
+      "ingredients": [
+        "Lait ou boisson végétale",
+        "Banane",
+        "Beurre de cacahuète",
+        "Cacao non sucré"
+      ],
+      "instructions": "Mixe tout : bon ratio glucides/protéines pour la fenêtre de récup.",
+      "prepTime": "3 min"
+    },
+    {
+      "id": "recipe-19",
+      "name": "Wrap thon-avocat rapide",
+      "category": "Après sortie longue",
+      "ingredients": [
+        "Tortilla complète",
+        "Thon",
+        "Avocat",
+        "Citron"
+      ],
+      "instructions": "Écrase l'avocat, garnis de thon, roule : glucides + protéines + bons lipides en un geste.",
+      "prepTime": "4 min"
+    },
+    {
+      "id": "recipe-20",
+      "name": "Oléagineux & fruit",
+      "category": "Collation",
+      "ingredients": [
+        "Amandes ou noix de cajou",
+        "Fruit frais"
+      ],
+      "instructions": "Rien à préparer.",
+      "prepTime": "0 min"
+    },
+    {
+      "id": "recipe-21",
+      "name": "Yaourt & fruits secs",
+      "category": "Collation",
+      "ingredients": [
+        "Yaourt grec",
+        "Miel",
+        "Fruits secs (dattes, abricots)"
+      ],
+      "instructions": "Mélange et déguste.",
+      "prepTime": "2 min"
+    },
+    {
+      "id": "recipe-22",
+      "name": "Pain & houmous",
+      "category": "Collation",
+      "ingredients": [
+        "Pain complet ou de céréales",
+        "Houmous ou fromage"
+      ],
+      "instructions": "Tartine simple.",
+      "prepTime": "2 min"
+    },
+    {
+      "id": "recipe-23",
+      "name": "Boule d'énergie maison (à préparer en lot)",
+      "category": "Collation",
+      "ingredients": [
+        "Dattes",
+        "Flocons d'avoine",
+        "Beurre de cacahuète",
+        "Cacao (optionnel)"
+      ],
+      "instructions": "Mixe tout, forme des boules, garde au frigo une semaine : collation prête à l'avance.",
+      "prepTime": "10 min (pour la semaine)"
+    },
+    {
+      "id": "recipe-24",
+      "name": "Fromage frais & graines",
+      "category": "Collation",
+      "ingredients": [
+        "Fromage frais type petit-suisse",
+        "Graines de courge ou tournesol",
+        "Filet de miel"
+      ],
+      "instructions": "Mélange et déguste.",
+      "prepTime": "1 min"
+    },
+    {
+      "id": "recipe-25",
+      "name": "Wrap protéiné",
+      "category": "Repas récup",
+      "ingredients": [
+        "Tortilla complète",
+        "Thon, œuf ou tofu",
+        "Crudités variées"
+      ],
+      "instructions": "Roule et c'est prêt.",
+      "prepTime": "4 min"
+    },
+    {
+      "id": "recipe-26",
+      "name": "Bowl quinoa & pois chiches",
+      "category": "Repas récup",
+      "ingredients": [
+        "Quinoa précuit",
+        "Pois chiches en boîte",
+        "Légumes crus",
+        "Tahini"
+      ],
+      "instructions": "Assemble, assaisonne au tahini-citron.",
+      "prepTime": "5 min"
+    },
+    {
+      "id": "recipe-27",
+      "name": "Omelette rapide",
+      "category": "Repas récup",
+      "ingredients": [
+        "Œufs",
+        "Pain complet",
+        "Crudités"
+      ],
+      "instructions": "Omelette nature à la poêle.",
+      "prepTime": "6 min"
+    },
+    {
+      "id": "recipe-28",
+      "name": "Poke bowl simplifié",
+      "category": "Repas récup",
+      "ingredients": [
+        "Riz précuit",
+        "Saumon fumé ou tofu mariné",
+        "Edamame surgelés (2 min à l'eau)",
+        "Avocat, concombre",
+        "Sauce soja, sésame"
+      ],
+      "instructions": "Assemble tous les ingrédients en bol, arrose de sauce soja-sésame.",
+      "prepTime": "7 min"
+    },
+    {
+      "id": "recipe-29",
+      "name": "Tartines chaudes fromage-jambon",
+      "category": "Repas récup",
+      "ingredients": [
+        "Pain complet",
+        "Fromage râpé",
+        "Jambon blanc ou dinde",
+        "Crudités en accompagnement"
+      ],
+      "instructions": "Passe au grille-pain ou à la poêle 3-4 min, sers avec des crudités.",
+      "prepTime": "6 min"
+    }
+  ],
+  "weeklyNutrition": [
+    {
+      "weekday": 0,
+      "rows": [
+        [
+          "Journée",
+          "Repos : petit-déj et déjeuner normaux, équilibrés"
+        ],
+        [
+          "Focus",
+          "Bon jour pour rattraper légumes crus variés, poisson gras, oléagineux avant la semaine chargée"
+        ]
+      ]
+    },
+    {
+      "weekday": 1,
+      "rows": [
+        [
+          "Petit-déj",
+          "Normal, un peu de glucides si la séance est en fin de matinée"
+        ],
+        [
+          "Avant renfo + course",
+          "Petite collation légère (fruit, quelques dattes) si le déjeuner est prévu après les deux séances"
+        ],
+        [
+          "Entre les deux séances",
+          "Si renfo et course ne s'enchaînent pas immédiatement, une petite collation (banane, oléagineux) évite le coup de mou"
+        ],
+        [
+          "Après",
+          "Repas complet protéines + glucides + crudités : les deux efforts du jour méritent une vraie récup"
+        ]
+      ]
+    },
+    {
+      "weekday": 2,
+      "rows": [
+        [
+          "Journée",
+          "Repos : normal, écoute ta faim"
+        ]
+      ]
+    },
+    {
+      "weekday": 3,
+      "rows": [
+        [
+          "Petit-déj",
+          "Normal"
+        ],
+        [
+          "Avant renfo + côtes",
+          "Collation un peu plus consistante si la séance est intense (banane + oléagineux)"
+        ],
+        [
+          "Entre les deux séances",
+          "Une collation légère si besoin avant l'effort en côtes"
+        ],
+        [
+          "Après",
+          "Dîner récup protéines + glucides : jour à double sollicitation, ne pas se priver"
+        ]
+      ]
+    },
+    {
+      "weekday": 4,
+      "rows": [
+        [
+          "Petit-déj et déjeuner",
+          "Normaux"
+        ],
+        [
+          "Avant renfo + escalade",
+          "Fruit + oléagineux en fin d'après-midi si besoin"
+        ],
+        [
+          "Après",
+          "Repas complet protéines + glucides + crudités"
+        ]
+      ]
+    },
+    {
+      "weekday": 5,
+      "rows": [
+        [
+          "Journée",
+          "Repos complet : aucune contrainte particulière, jour calme avant la sortie longue de dimanche"
+        ]
+      ]
+    },
+    {
+      "weekday": 6,
+      "rows": [
+        [
+          "Avant (30-60min)",
+          "Glucides digestes, peu de fibres : pain + miel + banane, ou riz au sirop d'érable"
+        ],
+        [
+          "Pendant (>1h30)",
+          "Fruits secs (dattes, abricots) ou gel"
+        ],
+        [
+          "Juste après",
+          "Smoothie protéiné + fruit, ou yaourt grec + fruit + miel : dans l'heure qui suit"
+        ],
+        [
+          "Déjeuner",
+          "Repas complet un peu plus tard : ne pas hésiter à manger largement, c'est la plus grosse sortie de la semaine"
+        ]
+      ]
+    }
+  ]
+}
